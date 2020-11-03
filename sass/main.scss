@@ -1,0 +1,40 @@
+:root {
+  --primary-color-1: #2ceef5;
+  --primary-color-2: #30d6ff;
+  --primary-color-3: #3385ff;
+
+  --secondary-color-1: #f5942c;
+  --secondary-color-2: #ffa230;
+  --secondary-color-3: #ffb833;
+
+  --tertiary-color-1: #f5302c;
+  --tertiary-color-2: #ff3a30;
+  --tertiary-color-3: #ff5233;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #bbb;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
