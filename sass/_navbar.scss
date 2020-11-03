@@ -1,0 +1,30 @@
+.navbar {
+  height: 7rem;
+  background-color: #fff;
+  font-size: 1.6rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+
+  li {
+    padding: 2.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:first-child {
+      margin-right: auto;
+    }
+
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+
+  a {
+  }
+}

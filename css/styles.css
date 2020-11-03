@@ -32,7 +32,7 @@ a {
   color: black; }
 
 .showcase {
-  height: 95vh;
+  height: 85vh;
   margin-bottom: 5rem;
   position: relative; }
   .showcase .title {
@@ -57,3 +57,22 @@ a {
     width: 100%;
     height: 100%;
     object-fit: fill; }
+
+.navbar {
+  height: 7rem;
+  background-color: #fff;
+  font-size: 1.6rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2); }
+  .navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%; }
+  .navbar li {
+    padding: 2.5rem;
+    cursor: pointer;
+    transition: all 0.2s; }
+    .navbar li:first-child {
+      margin-right: auto; }
+    .navbar li:hover {
+      background-color: #ccc; }
